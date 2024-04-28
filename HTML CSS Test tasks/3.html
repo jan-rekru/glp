@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <title>Tytuł strony</title>
+  <style>
+
+      body {
+          margin: 0;
+          font-family: Lato, sans-serif;
+      }
+
+      header {
+          background-color: green;
+          color: white;
+          padding: 20px;
+      }
+
+      .text-center {
+          text-align: center;
+      }
+
+      .margin-left {
+          margin-left: 5%;
+      }
+
+      .margin-right {
+          margin-right: 5%;
+      }
+
+      .section-1 {
+          padding: 20px;
+          background-color: pink;
+          margin: 5%;
+      }
+
+      .section-2, .section-3 {
+          width: 50%;
+          padding: 20px;
+          box-sizing: border-box;
+      }
+
+      .section-2 {
+          background-color: dodgerblue;
+      }
+
+      .section-3 {
+          background-color: yellow;
+      }
+
+      .section {
+          display: flex;
+      }
+
+      footer {
+          background-color: red;
+          color: white;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+      }
+
+  </style>
+</head>
+<body>
+<header>
+  <h2 class="text-center">Header</h2>
+</header>
+<div class="section-1 text-center">
+  <h2>Section 1</h2>
+</div>
+<div class="section">
+  <div class="section-2 text-center margin-left">
+    <h2>Section 2 left</h2>
+  </div>
+  <div class="section-3 text-center margin-right">
+    <h2>Section 2 right</h2>
+  </div>
+</div>
+<footer>
+  <img src="./image.png" alt="Opis obrazka" height="150px" width="100%">
+  <h2 class="text-center">Footer</h2>
+</footer>
+
+</body>
+</html>
